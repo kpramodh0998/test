@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Welcome</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f5f7fb}
+    .card{background:#fff;padding:2rem;border-radius:8px;box-shadow:0 6px 20px rgba(20,20,50,0.08);text-align:center}
+    h1{margin:0 0 .5rem}
+    p{margin:0 0 1rem;color:#555}
+    button{padding:.6rem 1rem;border:0;border-radius:6px;background:#2563eb;color:#fff;cursor:pointer}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome</h1>
+    <p>Welcome to your new page — get started by editing this file.</p>
+    <button id="greetBtn">Say Hello</button>
+  </div>
+
+  <script>
+    document.getElementById('greetBtn').addEventListener('click', () => {
+      alert('Hello — welcome!');
+    });
+  </script>
+</body>
+</html>
